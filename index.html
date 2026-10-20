@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>SafeHours — مناف</title>
+<meta name="description" content="مؤشر ساعات العمل الآمنة — شركة مناف للصناعات الغذائية">
+<meta name="theme-color" content="#F3F5F0" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0A0D09" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SafeHours">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicon-32.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  html,body{margin:0;height:100%;background:#F3F5F0}
+  @media (prefers-color-scheme:dark){html,body{background:#0A0D09}}
+  iframe{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);bottom:env(safe-area-inset-bottom,0px);width:100%;height:calc(100% - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));border:0;display:block}
+</style>
+</head>
+<body>
+<iframe id="app" title="SafeHours — مناف" allow="clipboard-write; fullscreen; screen-wake-lock" allowfullscreen></iframe>
+<script>
+  var EXEC = "https://script.google.com/macros/s/AKfycbynLnlX1OKZv0McTYeFivlyxytxpRuo4v6O5vtYt4PKL_hbjd0Nbf5fRCLEzdS7Mfa1Gw/exec";
+  var q = location.search || (location.hash === "#tv" ? "?tv" : "");
+  document.getElementById("app").src = EXEC + q;
+</script>
+</body>
+</html>

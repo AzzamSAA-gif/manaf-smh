@@ -1,0 +1,17 @@
+{
+  "name": "SafeHours — مناف",
+  "short_name": "SafeHours",
+  "description": "مؤشر ساعات العمل الآمنة — شركة مناف للصناعات الغذائية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#10230A",
+  "theme_color": "#10230A",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
